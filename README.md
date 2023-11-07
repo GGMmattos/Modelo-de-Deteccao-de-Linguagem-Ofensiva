@@ -1,15 +1,5 @@
   <h1>Construção de modelos de detecção automática de linguagem ofensiva e/ou de ódio em língua portuguesa</h1>
 
-<h4>Os esperimentos realizados foram divididos em rounds, desta forma temos</h4>
-
-R1: Onde são treinados e avaliados os modelos utilizando os algoritmos: Naive Bayes, Support Vector Machine(SVM), Multilayer Perceptron(MLP), Regressão Logística(LR)
-R2_Hate_BR_BERT.ipynb: Onde foi treinado e avaliado o modelo BERT utilizando a base de dados Hate_Br.
-R2_TOLD_BR_BERT: Onde foi treinado e avaliado o modelo BERT utilizando a base de dados Hate_Br.
-R3_Hate_BR_BERT: Modelo BERT aplicado em 100% do corpus HateBR  e avaliado com a ToLD-Br
-R3_TOLD_BR_BERT: Modelo BERT aplicado em 100% do corpus TOLD_BR  e avaliado com a HateBR
-
-
-
 <h3>Resumo</h3>
 
 <p style="text-align: justify"> A web e as redes sociais são espaços de comunicação que permitem a interação, a participação e a mobilização dos usuários, mas também podem ser usados para disseminar conteúdos prejudiciais, como ódio e intolerância. Em vista disso, torna-se necessário buscar formas de combater tal ação de modo a amenizar os danos sociais causados pela propagação desse tipo de conteúdo. Nesse sentido, diversos modelos para a detecção automática de discurso de ódio têm sido propostos pela comunidade científica, inclusive para a língua portuguesa. Tais modelos são treinados por meio de algoritmos de aprendizagem de máquina supervisionados e ajustados para uma base de dados particular. Nesse contexto, o objetivo deste projeto foi avaliar diferentes modelos classificadores de linguagem tóxica e/ou de ódio, visando identificar configurações de aprendizado que se destaquem em termos de desempenho em diferentes bases. Também se verificou a variação de desempenho dos modelos aprendidos quando avaliados em bases de dados diferentes das utilizadas no treinamento. Os resultados mostraram que os modelos BERT superaram os demais e que, dependendo da base de treinamento, há uma queda de desempenho quando o modelo é avaliado com comentários provindos de uma base diferente daquela utilizada para o treinamento. </p>
