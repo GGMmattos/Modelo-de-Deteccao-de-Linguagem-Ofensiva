@@ -29,6 +29,10 @@ Em um segundo experimento, um classificador BERT treinado com 100% da base ToLD-
 Para realizar os treinamentos e validações dos modelos foram utilizadas as bibliotecas de aprendizado de máquina scikit-learn e Simple Transformer. 
 </p>
 
+
+![image](https://github.com/GGMmattos/PIC/assets/73392609/d0204ad0-5897-47b6-b427-d1cd474b8195)
+
+
 <h3>Referências</h3>
 <p> 
 
