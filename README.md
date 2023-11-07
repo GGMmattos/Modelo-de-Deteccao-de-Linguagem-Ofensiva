@@ -10,3 +10,15 @@
 As representações, métodos e algoritmos de AM utilizados neste projeto também se basearam nos trabalhos de Leite et al. (2020) e Vargas et al. (2022), com algumas adaptações nas ferramentas e recursos utilizados. 
 Os modelos de classificação foram construídos utilizando a linguagem Python e tal processo pode ser dividido nas etapas descritas a seguir.
 </p>
+
+<h3>referências</h3>
+<p> 
+
+AL-HASSAN, A.; AL-DOSSARI, H. Detection of hate speech in arabic tweets using deep learning. Multimedia Systems, 2021.
+
+CORAZZA, M.; MENINI, S.; CABRIO, E.; TONELLI, S.; VILLATA, S. A multilingual evaluation for online hate speech detection. ACM Trans. Internet Technol., v. 20, n. 2, 2020.
+
+LEITE, J.A.; SILVA, D.F.; BONTCHEVA, K.; SCARTON, C. Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis. In: 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing, 2020. Proceedings… Association for Computational Linguistics, 2020, p. 914–924.
+
+VARGAS, F.; CARVALHO, I.; GÓES, F.; PARDO, T.A.S.; BENEVENUTO, F. HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Comments for Offensive Language and Hate Speech Detection. In: 13th Conference on Language Resources and Evaluation (LREC 2022), 2022, Marseille. Proceedings… European Language Resources Association (ELRA), 2022. p. 7174–7183.
+</p>
