@@ -33,7 +33,7 @@ Para realizar os treinamentos e validações dos modelos foram utilizadas as bib
 
 <p>A Tabela abaixo mostra os melhores resultados obtidos no primeiro experimento, em termos da métrica micro-F1. Os valores sinalizados com asterisco (*) foram obtidos com pré-processamento dos dados, enquanto os demais foram obtidos sem pré-processamento.</p>
 
-![image](https://github.com/GGMmattos/PIC/assets/73392609/3df73bdf-5f8d-43a7-99b3-e89c30c5f170)
+![image](https://github.com/GGMmattos/PIC/assets/73392609/0c9dc81e-5af4-4dcc-b6df-84469d5005cf)
 
 <p>É possível observar que os modelos BERT, sem pré-processamento, obtiveram desempenho superior aos demais. No caso do classificador BERT-ToLD-BR, os resultados foram similares ao melhor resultado apresentado por Leite et al. (2020) (0,76 de micro-F1 com um classificador BERT). Já os resultados do BERT-HateBr foram superiores ao melhor resultado apresentado por Vargas et al. (2022) (0,85 de micro-F1 com um classificador SVM e tf-idf). Cabe destacar que Vargas et al. (2022) não avaliaram classificadores baseados no BERT. 
 No segundo experimento, foram treinados modelos BERT utilizando 100% das bases ToLD-BR e HateBR, chamados de BERT-ToLD-BR-Full e BERT-HateBR-Full. O classificador BERT-ToLD-BR-Full foi avaliado com a base HateBR e obteve 0,78 de micro-F1. O classificador BERT-HateBR-Full, por sua vez, foi avaliado com a base ToLD-BR e obteve 0,71 de micro-F1. Quando comparados aos resultados do primeiro experimento, é possível observar que o BERT-ToLD-BR-Full manteve o desempenho, enquanto o BERT-HateBR-Full teve uma queda de 0,21 em pontos no desempenho quando avaliado com uma base diferente da utilizada no treinamento. 
