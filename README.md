@@ -17,7 +17,7 @@ As representações, métodos e algoritmos de AM utilizados neste projeto també
 Os modelos de classificação foram construídos utilizando a linguagem Python e tal processo pode ser dividido nas etapas descritas a seguir.
 </p>
 
-<h2>Pré-Processamento </h2>
+<h4>Pré-Processamento </h4>
 
 <p>Os classificadores foram construídos com e sem pré-processamento das bases de dados. O primeiro passo do pré-processamento dos comentários consistiu em deixar todas as letras minúsculas, a fim de reduzir a complexidade e a viabilidade dos dados, facilitando o aprendizado do modelo. O próximo passo foi realizar a tokenização, que consiste em dividir os textos em unidades indivisíveis, chamadas tokens. Para isso foi utilizada a biblioteca spaCy. A SpaCy também foi utilizada para a remoção de stop words, que são palavras muito comuns e pouco informativas, e sinais de pontuação. Além disso, foi feita a lematização dos tokens dos comentários. O lema é a forma básica e canônica de uma palavra. Por exemplo, “cantando”, “cantou” e “cantaria” tem o lema “cantar”. A lematização pode ser útil para simplificar e padronizar os textos, reduzindo a variação morfológica e facilitando a análise semântica.</p>
 
@@ -29,7 +29,7 @@ Em um segundo experimento, um classificador BERT treinado com 100% da base ToLD-
 Para realizar os treinamentos e validações dos modelos foram utilizadas as bibliotecas de aprendizado de máquina scikit-learn e Simple Transformer. 
 </p>
 
-<h3>Resultados e Discussão</h3>
+<h4>Resultados e Discussão</h4>
 
 <p>A Tabela abaixo mostra os melhores resultados obtidos no primeiro experimento, em termos da métrica micro-F1. Os valores sinalizados com asterisco (*) foram obtidos com pré-processamento dos dados, enquanto os demais foram obtidos sem pré-processamento.</p>
 
