@@ -2,7 +2,7 @@
 
 <h3>Resumo</h3>
 
-<p> A web e as redes sociais são espaços de comunicação que permitem a interação, a participação e a mobilização dos usuários, mas também podem ser usados para disseminar conteúdos prejudiciais, como ódio e intolerância. Em vista disso, torna-se necessário buscar formas de combater tal ação de modo a amenizar os danos sociais causados pela propagação desse tipo de conteúdo. Nesse sentido, diversos modelos para a detecção automática de discurso de ódio têm sido propostos pela comunidade científica, inclusive para a língua portuguesa. Tais modelos são treinados por meio de algoritmos de aprendizagem de máquina supervisionados e ajustados para uma base de dados particular. Nesse contexto, o objetivo deste projeto foi avaliar diferentes modelos classificadores de linguagem tóxica e/ou de ódio, visando identificar configurações de aprendizado que se destaquem em termos de desempenho em diferentes bases. Também se verificou a variação de desempenho dos modelos aprendidos quando avaliados em bases de dados diferentes das utilizadas no treinamento. Os resultados mostraram que os modelos BERT superaram os demais e que, dependendo da base de treinamento, há uma queda de desempenho quando o modelo é avaliado com comentários provindos de uma base diferente daquela utilizada para o treinamento. </p>
+<p  style="text-align: right;"> A web e as redes sociais são espaços de comunicação que permitem a interação, a participação e a mobilização dos usuários, mas também podem ser usados para disseminar conteúdos prejudiciais, como ódio e intolerância. Em vista disso, torna-se necessário buscar formas de combater tal ação de modo a amenizar os danos sociais causados pela propagação desse tipo de conteúdo. Nesse sentido, diversos modelos para a detecção automática de discurso de ódio têm sido propostos pela comunidade científica, inclusive para a língua portuguesa. Tais modelos são treinados por meio de algoritmos de aprendizagem de máquina supervisionados e ajustados para uma base de dados particular. Nesse contexto, o objetivo deste projeto foi avaliar diferentes modelos classificadores de linguagem tóxica e/ou de ódio, visando identificar configurações de aprendizado que se destaquem em termos de desempenho em diferentes bases. Também se verificou a variação de desempenho dos modelos aprendidos quando avaliados em bases de dados diferentes das utilizadas no treinamento. Os resultados mostraram que os modelos BERT superaram os demais e que, dependendo da base de treinamento, há uma queda de desempenho quando o modelo é avaliado com comentários provindos de uma base diferente daquela utilizada para o treinamento. </p>
 
 <h3>Introdução</h3>
 
@@ -29,9 +29,15 @@ Em um segundo experimento, um classificador BERT treinado com 100% da base ToLD-
 Para realizar os treinamentos e validações dos modelos foram utilizadas as bibliotecas de aprendizado de máquina scikit-learn e Simple Transformer. 
 </p>
 
+<h3>Resultados e Discussão</h3>
 
-![image](https://github.com/GGMmattos/PIC/assets/73392609/d0204ad0-5897-47b6-b427-d1cd474b8195)
+<p>A Tabela abaixo mostra os melhores resultados obtidos no primeiro experimento, em termos da métrica micro-F1. Os valores sinalizados com asterisco (*) foram obtidos com pré-processamento dos dados, enquanto os demais foram obtidos sem pré-processamento.</p>
 
+![image](https://github.com/GGMmattos/PIC/assets/73392609/3df73bdf-5f8d-43a7-99b3-e89c30c5f170)
+
+<p>É possível observar que os modelos BERT, sem pré-processamento, obtiveram desempenho superior aos demais. No caso do classificador BERT-ToLD-BR, os resultados foram similares ao melhor resultado apresentado por Leite et al. (2020) (0,76 de micro-F1 com um classificador BERT). Já os resultados do BERT-HateBr foram superiores ao melhor resultado apresentado por Vargas et al. (2022) (0,85 de micro-F1 com um classificador SVM e tf-idf). Cabe destacar que Vargas et al. (2022) não avaliaram classificadores baseados no BERT. 
+No segundo experimento, foram treinados modelos BERT utilizando 100% das bases ToLD-BR e HateBR, chamados de BERT-ToLD-BR-Full e BERT-HateBR-Full. O classificador BERT-ToLD-BR-Full foi avaliado com a base HateBR e obteve 0,78 de micro-F1. O classificador BERT-HateBR-Full, por sua vez, foi avaliado com a base ToLD-BR e obteve 0,71 de micro-F1. Quando comparados aos resultados do primeiro experimento, é possível observar que o BERT-ToLD-BR-Full manteve o desempenho, enquanto o BERT-HateBR-Full teve uma queda de 0,21 em pontos no desempenho quando avaliado com uma base diferente da utilizada no treinamento. 
+</p>
 
 <h3>Referências</h3>
 <p> 
