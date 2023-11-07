@@ -1,7 +1,7 @@
-<h4>Os esperimentos realizados foram divididos em rounds, desta forma temos</h4>
+Os esperimentos realizados foram divididos em rounds, desta forma temos
 
-R1: Onde são treinados e avaliados os modelos utilizando os algoritmos: Naive Bayes, Support Vector Machine(SVM), Multilayer Perceptron(MLP), Regressão Logística(LR)
-R2_Hate_BR_BERT.ipynb: Onde foi treinado e avaliado o modelo BERT utilizando a base de dados Hate_Br.
+R1: Onde são treinados e avaliados os modelos utilizando os algoritmos: Naive Bayes, Support Vector Machine(SVM), Multilayer Perceptron(MLP), Regressão Logística(LR).
+R2_Hate_BR_BERT: Onde foi treinado e avaliado o modelo BERT utilizando a base de dados Hate_Br.
 R2_TOLD_BR_BERT: Onde foi treinado e avaliado o modelo BERT utilizando a base de dados Hate_Br.
 R3_Hate_BR_BERT: Modelo BERT aplicado em 100% do corpus HateBR  e avaliado com a ToLD-Br
 R3_TOLD_BR_BERT: Modelo BERT aplicado em 100% do corpus TOLD_BR  e avaliado com a HateBR
