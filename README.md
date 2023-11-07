@@ -29,7 +29,7 @@ Em um segundo experimento, um classificador BERT treinado com 100% da base ToLD-
 Para realizar os treinamentos e validações dos modelos foram utilizadas as bibliotecas de aprendizado de máquina scikit-learn e Simple Transformer. 
 </p>
 
-<h3>referências</h3>
+<h3>Referências</h3>
 <p> 
 
 AL-HASSAN, A.; AL-DOSSARI, H. Detection of hate speech in arabic tweets using deep learning. Multimedia Systems, 2021.
